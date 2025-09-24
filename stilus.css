@@ -13,26 +13,30 @@ table{
   max-width: 900px;
 }
 
-.angol   { background-color: #afafaf; }
-.tesi    { background-color: #fae88d; }
-.tori    { background-color: #f3c028; }
-.matek   { background-color: #61a1f0; }
-.fizika  { background-color: #98fe79; }  
-.irod    { background-color: #cf954a; }  
-.magyar  { background-color: #f5c6cb; }
-.sz_angol { background-color: #b8daff; }
-.asztfejl{ background-color: #81b2bb; }
-.ab_kez   { background-color: #f7aa8d; }
-.webprg  { background-color: #c3e6cb; }
-.ikt     { background-color: #8dee98; }
-.of      { background-color: #ffecd1; }
+
+.angol:hover   { background-color: #afafaf; }
+.tesi:hover    { background-color: #fae88d; }
+.tori:hover    { background-color: #f3c028; }
+.matek:hover   { background-color: #61a1f0; }
+.fizika:hover  { background-color: #98fe79; }  
+.irod:hover    { background-color: #cf954a; }  
+.magyar:hover  { background-color: #f5c6cb; }
+.sz_angol:hover { background-color: #b8daff; }
+.asztfejl:hover { background-color: #81b2bb; }
+.ab_kez:hover   { background-color: #f7aa8d; }
+.webprg:hover  { background-color: #c3e6cb; }
+.ikt:hover     { background-color: #8dee98; }
+.of:hover      { background-color: #ffecd1; }
 
 .delutan {
-  background-color: #f4a5f4;
+  background-color: #ceedf6;
 }
 .nap{
   background-color: #a2ffeb;
 }
 .ora{
   background-color: #a1ffee;
+}
+.delutan:hover{
+  background-color: white;
 }
