@@ -1,111 +1,187 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="stilus.css">
 </head>
+
 <body>
-<!-- table>(tr>th{napok}*5)+(tr>td{órák}*5)*8 -->
+    <caption>Órarend</caption>
+    <div class="orarend">
+        <table>
+            <thead>
+                <tr class="nap">
+                    <th></th>
+                    <th>Hétfő</th>
+                    <th>Kedd</th>
+                    <th>Szerda</th>
+                    <th>Csütörtök</th>
+                    <th>Péntek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ora">1</td>
+                    <td></td>
+                    <td class="angol">
+                        <h4>Angol</h4>
+                        <p>81</p>
+                    </td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td rowspan="4" class="asztfejl">
+                        <h4>Asztfejl.</h4>
+                        <p>HIDR</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ora">2</td>
+                    <td class="of">
+                        <h4>Of</h4>
+                        <p>35</p>
+                    </td>
+                    <td class="tesi">
+                        <h4>Tesi</h4>
+                        <p>TT2</p>
+                    </td>
 
-<!-- table>(tr>th{napok}*5)+(tr>(td[style="background-color:green"]+td{órák}*3+td[style="background-color:red"]))*8 -->
-<caption>Órarend</caption>
-<table>
-    
-    <tr class="nap">
-        <th></th>
-        <th>Hétfő</th>
-        <th>Kedd</th>
-        <th>Szerda</th>
-        <th>Csütörtök</th>
-        <th>Péntek</th>
-    </tr>
-    <tbody>
-    <tr>
-        <td class="ora">1</td>
-        <td></td>
-        <td class="angol"><h4>Angol</h4> <p>81</p></td>
-        <td rowspan="3"></td>
-        <td></td>
-        <td rowspan="4" class="asztfejl"><h4>Asztfejl.</h4> <p>HIDR</p></td>
-    </tr>
-    <tr>
-        <td class="ora">2</td>
-        <td class="of"><h4>Of</h4> <p>35</p></td>
-        <td class="tesi"><h4>Tesi</h4> <p>TT2</p></td>
-        
-        <td class="tori"><h4>Töri</h4> <p>35</p></td>
-        
-    </tr>
-    <tr>
-        <td class="ora">3</td>
-        <td class="tesi"><h4>Tesi</h4> <p>TT2</p></td>
-        <td class="tori"><h4>Töri</h4> <p>35</p></td>
+                    <td class="tori">
+                        <h4>Töri</h4>
+                        <p>35</p>
+                    </td>
 
-        <td class="matek"><h4>Matek</h4> <p>35</p></td>
-        
-    </tr>
-    <tr>
-        <td class="ora">4</td>
-        <td class="matek"><h4>Matek</h4> <p>31</p></td>
-        <td class="matek"><h4>Matek</h4> <p>31</p></td>
-        <td rowspan="2" class="ab_kez"><h4>AB-kez</h4><p>56</p></td>
-        <td rowspan="2" class="angol"><h4>Angol</h4> <p>81</p></td>
-        
-    </tr>
-    <tr>
-        <td class="ora">5</td>
-        <td class="fizika"><h4>Fizika</h4> <p>35</p></td>
-        <td rowspan="2" class="irod"><h4>Irod.</h4> <p>35</p></td>
-        
-        
-        <td class="sz_angol"><h4>Sz.angol</h4> <p>34</p></td>
-    </tr>
-    <tr>
-        <td class="ora">6</td>
-        <td class="irod"><h4>Irod.</h4> <p>35</p></td>
-        
-        <td rowspan="3" class="webprg"><h4>Webprg.</h4> <p>HDR</p></td>
-        <td class="matek"><h4>Matek</h4> <p>35</p></td>
-        <td rowspan="3" class="ikt"><h4>IKT</h4> <p>57</p></td>
-    </tr>
-    <tr>
-        <td class="ora">7</td>
-        <td class="magyar"><h4>Magyar</h4> <p>35</p>
-        <td class="angol"><h4>Angol</h4> <p>81</p></td>
-        <td class="fizika"><h4>Fizika</h4> <p>35</p></td>
-        
-        
-    </tr>
-    <tr>
-        <td class="ora">8</td>
-        <td class="sz_angol"><h4>Sz.angol</h4> <p>35</p></td>
-        <td class="tesi"><h4>Tesi</h4> <p>TT2</p></td>
-        <td class="tesi"><h4>Tesi</h4> <p>TT2</p></td>
-        
-    </tr>
-    
-</tbody>
-<tfoot>
-    <tr class="delutan">
-        <td></td>
-        <td>tánc</td>
-        <td></td>
-        <td>röpi</td>
-        <td>tánc</td>
-        <td>röpi</td>
-    </tr>
-    <tr class="delutan">
-        <td></td>
-        <td>tánc</td>
-        <td></td>
-        <td></td>
-        <td>tánc</td>
-        <td></td>
-        
-    </tr>
-</tfoot>
-</table>
+                </tr>
+                <tr>
+                    <td class="ora">3</td>
+                    <td class="tesi">
+                        <h4>Tesi</h4>
+                        <p>TT2</p>
+                    </td>
+                    <td class="tori">
+                        <h4>Töri</h4>
+                        <p>35</p>
+                    </td>
 
+                    <td class="matek">
+                        <h4>Matek</h4>
+                        <p>35</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="ora">4</td>
+                    <td class="matek">
+                        <h4>Matek</h4>
+                        <p>31</p>
+                    </td>
+                    <td class="matek">
+                        <h4>Matek</h4>
+                        <p>31</p>
+                    </td>
+                    <td rowspan="2" class="ab_kez">
+                        <h4>AB-kez</h4>
+                        <p>56</p>
+                    </td>
+                    <td rowspan="2" class="angol">
+                        <h4>Angol</h4>
+                        <p>81</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="ora">5</td>
+                    <td class="fizika">
+                        <h4>Fizika</h4>
+                        <p>35</p>
+                    </td>
+                    <td rowspan="2" class="irod">
+                        <h4>Irod.</h4>
+                        <p>35</p>
+                    </td>
+
+
+                    <td class="sz_angol">
+                        <h4>Sz.angol</h4>
+                        <p>34</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ora">6</td>
+                    <td class="irod">
+                        <h4>Irod.</h4>
+                        <p>35</p>
+                    </td>
+
+                    <td rowspan="3" class="webprg">
+                        <h4>Webprg.</h4>
+                        <p>HDR</p>
+                    </td>
+                    <td class="matek">
+                        <h4>Matek</h4>
+                        <p>35</p>
+                    </td>
+                    <td rowspan="3" class="ikt">
+                        <h4>IKT</h4>
+                        <p>57</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ora">7</td>
+                    <td class="magyar">
+                        <h4>Magyar</h4>
+                        <p>35</p>
+                    <td class="angol">
+                        <h4>Angol</h4>
+                        <p>81</p>
+                    </td>
+                    <td class="fizika">
+                        <h4>Fizika</h4>
+                        <p>35</p>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td class="ora">8</td>
+                    <td class="sz_angol">
+                        <h4>Sz.angol</h4>
+                        <p>35</p>
+                    </td>
+                    <td class="tesi">
+                        <h4>Tesi</h4>
+                        <p>TT2</p>
+                    </td>
+                    <td class="tesi">
+                        <h4>Tesi</h4>
+                        <p>TT2</p>
+                    </td>
+
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr class="delutan">
+                    <td></td>
+                    <td>tánc</td>
+                    <td></td>
+                    <td>röpi</td>
+                    <td>tánc</td>
+                    <td>röpi</td>
+                </tr>
+                <tr class="delutan">
+                    <td></td>
+                    <td>tánc</td>
+                    <td></td>
+                    <td></td>
+                    <td>tánc</td>
+                    <td></td>
+
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
+
 </html>
